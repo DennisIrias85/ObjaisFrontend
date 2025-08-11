@@ -1,0 +1,41 @@
+# Misc
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.history
+.svn/
+.build/
+.env
+
+# IntelliJ/Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+.migrate_working_dir/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# iOS build
+**/ios/Flutter/.last_build_id
+
+# Android build
+android/app/debug/
+android/app/profile/
+android/app/release/
